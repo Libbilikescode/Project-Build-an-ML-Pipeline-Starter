@@ -192,7 +192,9 @@ def get_inference_pipeline(rf_config, max_tfidf_features):
     )
 
     # Some minimal NLP for the "name" column
-    reshape_to_1d = FunctionTransformer(np.reshape, kw_args={"newshape": -1})
+    #CODE INSERT HERE # Compatibility fix: newer NumPy/sklearn environments may raise
+    # reshape() got an unexpected keyword argument 'newshape'
+    reshape_to_1d = FunctionTransformer(lambda x: np.reshape(x, -1))
     name_tfidf = make_pipeline(
         SimpleImputer(strategy="constant", fill_value=""),
         reshape_to_1d,
