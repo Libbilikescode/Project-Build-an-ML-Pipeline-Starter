@@ -179,3 +179,41 @@ Please, make sure all steps are using **the same** python version and that you h
 ## License
 
 [License](LICENSE.txt)
+
+
+## Submission Information
+
+## GitHub Repository
+Repository: https://github.com/Libbilikescode/Project-Build-an-ML-Pipeline-Starter
+
+GitHub Release: Version 1.0.0
+
+## Weights & Biases
+Public W&B Report
+
+https://wandb.ai/lfros24-student/nyc_airbnb/reports/D501-NYC-Airbnb-ML-Pipeline--VmlldzoxNzI2MzMzNQ?accessToken=r7izy8amyamk771qk6mjxdgzzb2m8z5gxz3fylv1t95r5raj3y1u2220cgfjgi2m
+
+## Reviewer Note
+For convenience, the W&B report is the recommended entry point for reviewing the experiment history associated with this project.
+This project was completed using a Weights & Biases (W&B) Academic workspace.
+
+At the time this project was completed, the course instructions did not specify that W&B projects created in Academic workspaces are not publicly viewable by default.
+
+To ensure the reviewer can access the complete experiment history without recreating the pipeline, a W&B Report with "Anyone with the link can view" sharing has been provided above.
+
+The report includes:
+•	Complete pipeline execution history
+•	Experiment tracking
+•	Model evaluation metrics
+•	Feature importance visualization
+•	Logged artifacts
+•	Final successful pipeline execution
+
+The final model submitted for evaluation corresponds to the `glad-totem-18` Random Forest training run.
+
+
+
+
+
+
+
