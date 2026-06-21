@@ -209,7 +209,7 @@ The report includes:
 •	Logged artifacts
 •	Final successful pipeline execution
 
-The final model submitted for evaluation corresponds to the `glad-totem-18` Random Forest training run.
+The final model submitted for evaluation corresponds to the `smart-sky-16` Random Forest training run.
 
 
 
